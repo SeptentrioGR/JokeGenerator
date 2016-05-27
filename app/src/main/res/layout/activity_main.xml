@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.peter.tobefilledlater.MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="@color/PrimaryColor" />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:text="Joke Generator"
+            android:textSize="45dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:background="@color/secondaryColor"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:elevation="15sp"
+            android:layout_marginLeft="25sp"
+            android:weightSum="2">
+
+            <TextView
+                android:elevation="25sp"
+                android:layout_gravity="center"
+                android:padding="15sp"
+                android:id="@+id/jokeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:text="Press the Button\nto get a Random Joke"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:elevation="25sp"
+                android:layout_gravity="center"
+                android:padding="15sp"
+                android:id="@+id/jokeDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:text="Press the Button\nto get a Random Joke"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:elevation="25sp"
+            android:background="@color/secondaryColor"
+            android:id="@+id/toSecondActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15sp"
+            android:padding="25sp"
+            android:text="Generate Joke" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
