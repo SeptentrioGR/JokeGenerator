@@ -1,4 +1,5 @@
 #JokeGenerator
+A Generator Prototype
 
 #What is this?
 A Simple app where you press a button and a joke is pulled out from an Array and showed in the screen. In this very Simple app I design you can generate some random jokes from the Database.
